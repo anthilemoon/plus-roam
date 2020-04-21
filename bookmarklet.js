@@ -1,0 +1,1 @@
+(function(){let text=""; if(window.getSelection()!=''){text=window.getSelection().toString();}prompt("Press CTRL+C or CMD+C, then escape and paste into Roam.", "__"+text+"__ — via ["+document.title+"]("+location.href+") [[+Roam]]");})()
